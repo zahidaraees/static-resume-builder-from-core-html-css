@@ -1,0 +1,77 @@
+body {
+  margin: 20px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(53, 74, 87);
+  
+    
+}
+.heading {
+  color: rgb(241, 241, 232);
+  font-size: xx-large;
+  text-align: center;
+}
+.main {
+  max-width: 60%;
+  margin: auto;
+  padding: 20px;
+  border: redius 8px;
+  text-align: center;
+  margin-bottom: 100px;
+  position: relative;
+  color: aliceblue;
+  
+  
+}
+forpic {
+  color: #9de2a7;
+}
+input[type="file"] {
+  font-size: 16px;
+
+  padding: 10px;
+  width: 250;
+  background-color: rgb(168, 107, 78);
+  border-radius: 30px;
+  margin-top: 20px;
+}
+input[type="file"]selector.button{
+    background-color: blueviolet;
+    border-radius: 10px;
+    cursor: pointer;
+    color: blue;
+    font-size: large;
+    border-color: black;
+    
+
+} 
+form{
+    margin-bottom: 40px;
+
+}
+label{
+  font-size:18px;
+  color:blanchedalmond
+
+
+}
+input,textarea{
+    font-size: 14px;
+    background: width 3px;;
+    color:rgb(20, 2, 2);
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border-width: 2px;
+    border-radius: 13px;
+
+}
+.submit-button{
+    background-color: rgb(24, 47, 3);
+    cursor: pointer;
+    color: rgb(240, 238, 234);
+    font-size: large;
+    border-color: black;
+    border-radius: 10px;
+
+}

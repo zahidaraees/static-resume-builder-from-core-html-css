@@ -1,0 +1,97 @@
+<!--Milestone 1, Static Resume Builder with HTML CSS-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Resume Builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    
+    <div class="heading">
+      Milstone 01 - Static Resume Builder</div>
+      
+      <div class="main">
+    
+    <form id="resumeform">
+      <div class="Persional-info"><h3><u><strong>PERSONAL INFORMATION</strong></u></h3></div><br><br>
+
+    <label for="picture" class="inputname" id="upload"
+        > Upload Passport Size Picture:</label
+      >
+      <input
+        type="file"
+        name="picture"
+        id="picture"
+        class="forpic"
+        accept="image"
+      />
+      <br /><br />
+
+      <label for="name" class="inputname"
+        >Enter Your Full Name:   </label
+      >
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="inputname"
+        accept="text"
+        required
+      />
+      <br /><br />
+      <label for="email" class="inputname" id="email"
+        >Enter Your Email Address:</label
+      >
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="forpic"
+        accept="Email"
+        required
+      />
+      <br /><br />
+      <label for="skills" class="inputskills"> SKILLS</label>
+      <textarea name="skills" class="inputname" id="skills" required>
+      </textarea>
+      <br /><br />
+
+      <div class="Persional-info"><strong>EDUCATION</strong></div><br>
+      <label for="Qualification" class="inputEdu"
+        >Enter Your Acadamic Qualification:</label
+      >
+      <textarea
+        name="Qualification"
+        class="inputEdu"
+        id="Qualification" 
+        required
+      >
+      </textarea>
+      <label for="Professional" class="inputname"
+        >Enter Your Professional Qualification:</label
+      >
+      <textarea
+        name="Qualification"
+        class="inputEdu"
+        id="Qualification"
+        required
+      >
+      </textarea>
+      <br><br>
+      <div class="Persional-info"><strong>WORK EXPERIENCE  </strong></div><br>
+      <label for="Experience" class="inputExp"
+        > Enter your Experience:</label
+      >
+      <textarea name="Experience" class="inputExp" id="Experience" required>
+      </textarea>
+      <br /><br />
+
+      <input type="button" class="submit-button" name="submit" value="Generate Resume" required />
+
+    </form>
+</div>
+  </body>
+</html>
